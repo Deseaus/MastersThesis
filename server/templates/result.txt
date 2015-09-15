@@ -1,0 +1,13 @@
+Participant ID:     {{ participant_id }}
+Experiment order:   {{ order }}
+Setup:              {{ setup }}
+Start:              {{ start }}
+End:                {{ end }}
+Total time (s):     {{ total|round }}
+Start time (unix):  {{ startunix  }}
+End time (unix):    {{ endunix  }}
+
+Translation:
+{% for t in translation %}
+{{ t }}
+{% endfor %}

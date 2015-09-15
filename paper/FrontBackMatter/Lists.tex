@@ -1,0 +1,44 @@
+
+%----------------------------------------------------------------------------------------
+%	List of Figures
+%----------------------------------------------------------------------------------------
+
+\manualmark
+\markboth{\spacedlowsmallcaps{\listfigurename}}{\spacedlowsmallcaps{\listfigurename}} 
+
+\refstepcounter{dummy}
+\addcontentsline{toc}{chapter}{\tocEntry{\listfigurename}} % Uncomment if you would like the list of figures to appear in the table of contents
+\pdfbookmark[1]{\listfigurename}{lof} % Bookmark name visible in a PDF viewer
+
+\listoffigures
+
+\vspace*{8ex}
+\newpage
+
+%----------------------------------------------------------------------------------------
+%	List of Tables
+%----------------------------------------------------------------------------------------
+
+\refstepcounter{dummy}
+\addcontentsline{toc}{chapter}{\tocEntry{\listtablename}} % Uncomment if you would like the list of tables to appear in the table of contents
+\pdfbookmark[1]{\listtablename}{lot} % Bookmark name visible in a PDF viewer
+
+\listoftables
+        
+\vspace*{8ex}
+\newpage
+
+    
+%----------------------------------------------------------------------------------------
+%	List of Listings
+%---------------------------------------------------------------------------------------- 
+
+\refstepcounter{dummy}
+\addcontentsline{toc}{chapter}{\tocEntry{\lstlistlistingname}} % Uncomment if you would like the list of listings to appear in the table of contents
+\pdfbookmark[1]{\lstlistlistingname}{lol} % Bookmark name visible in a PDF viewer
+
+\lstlistoflistings 
+
+\vspace*{8ex}
+\newpage
+

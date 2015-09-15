@@ -1,0 +1,4 @@
+The field of AI research was founded at a conference on the campus of Dartmouth College in the summer of 1956.
+In 1973 the U.S. and British Governments stopped funding undirected research into artificial intelligence.
+Seven years later, a visionary initiative by the Japanese Government inspired governments and industry to provide AI with billions of dollars, but by the late 80s the investors became disillusioned and withdrew funding again.
+This cycle of boom and bust, of "AI winters" and summers, continues to haunt the field.

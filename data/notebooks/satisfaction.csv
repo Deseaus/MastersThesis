@@ -1,0 +1,55 @@
+rating;setup;type;text
+Somewhat satisfied;style;task;garfield
+Somewhat dissatisfied;style;task;ai
+Neutral;style;task;charlotte
+Somewhat satisfied;style;task;garfield
+Somewhat satisfied;style;task;charlotte
+Somewhat satisfied;style;task;ai
+Neutral;style;task;ai
+Very satisfied;style;task;garfield
+Neutral;style;task;garfield
+Somewhat satisfied;style;quality;garfield
+Somewhat dissatisfied;style;quality;ai
+Somewhat dissatisfied;style;quality;charlotte
+Somewhat satisfied;style;quality;garfield
+Somewhat satisfied;style;quality;charlotte
+Somewhat satisfied;style;quality;ai
+Somewhat dissatisfied;style;quality;ai
+Very satisfied;style;quality;garfield
+Very satisfied;style;quality;garfield
+Somewhat satisfied;pe;task;charlotte
+Neutral;pe;task;charlotte
+Somewhat satisfied;pe;task;garfield
+Somewhat satisfied;pe;task;ai
+Somewhat satisfied;pe;task;ai
+Very satisfied;pe;task;garfield
+Somewhat satisfied;pe;task;garfield
+Very satisfied;pe;task;charlotte
+Somewhat satisfied;pe;task;ai
+Neutral;pe;quality;charlotte
+Somewhat satisfied;pe;quality;charlotte
+Somewhat satisfied;pe;quality;garfield
+Somewhat satisfied;pe;quality;ai
+Somewhat satisfied;pe;quality;ai
+Very satisfied;pe;quality;garfield
+Very satisfied;pe;quality;garfield
+Very satisfied;pe;quality;charlotte
+Neutral;pe;quality;ai
+Somewhat satisfied;scratch;task;ai
+Somewhat satisfied;scratch;task;garfield
+Somewhat satisfied;scratch;task;ai
+Somewhat satisfied;scratch;task;charlotte
+Somewhat satisfied;scratch;task;garfield
+Somewhat satisfied;scratch;task;charlotte
+Neutral;scratch;task;charlotte
+Somewhat satisfied;scratch;task;ai
+Neutral;scratch;task;charlotte
+Somewhat satisfied;scratch;quality;ai
+Neutral;scratch;quality;garfield
+Neutral;scratch;quality;ai
+Somewhat satisfied;scratch;quality;charlotte
+Somewhat dissatisfied;scratch;quality;garfield
+Somewhat satisfied;scratch;quality;charlotte
+Somewhat satisfied;scratch;quality;charlotte
+Somewhat satisfied;scratch;quality;ai
+Somewhat dissatisfied;scratch;quality;charlotte

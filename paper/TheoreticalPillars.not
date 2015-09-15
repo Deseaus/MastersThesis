@@ -1,0 +1,116 @@
+%%% To ease future customizations, various replaceables have been paramaterized
+%%% as listed in the newcommands section
+
+\documentclass[11pt]{article}
+\usepackage{eamt15}
+\usepackage{times}
+\usepackage{latexsym}
+\setlength\titlebox{6.5cm}    % Expanding the titlebox
+%%% YOUR PACKAGES BELOW THIS LINE %%%
+
+
+\title{Theoretical Pillars for Machine Translation}
+
+\date{}
+
+\begin{document}
+\maketitle
+\begin{abstract}
+  This document contains the instructions for preparing a camera-ready
+  manuscript for the proceedings of \confname . The document itself
+  conforms to its own specifications, and is therefore an example of
+  what your manuscript should look like. Authors are asked to conform
+  to all the directions reported in this document.
+\end{abstract}
+
+
+\section{Introduction}
+
+General theories of translation are estranged in machine translation research. Other areas of research in NLP base their research on theories ---~commonly linguistic theories--- upon which models are implemented and tested. To name a couple, syntactic parsing develops algorithms on the basis of HPSG \cite{pollard1994head}, CCG \cite{steedman2000syntactic}, etc. or semantic parsing builds upon theoretical models such as Type Theory with Records \cite{cooper2005records} or Minimal Recursion Semantics \cite{copestake2005minimal}. MT systems today are not explicitely built on any general theory of translation.
+
+This paper aims to add these theoretical pillars into machine translation research for two reasons. First and foremost, a strong theoretical basis will reinforce research into MT and related technologies as well as provide a better idea of where they should be heading. This can clear the way for competing theories to emerge and develop their own line of research. 
+
+Secondly, the output of MT systems has improved considerable in the recent years, leading to a focus shift to attain ``quality" translations as the next step from gisting systems. Defining quality, measuring it and creating metrics useful for MT, postediting (PE) or even human translation (HT) is an active and ongoing field of research. It is thus natural to turn to Translation Studies and the theories it has developed, which have been dealing with the notion of ``quality" and the very essence of what translation is for a long time, to see if answers that jointly describe MT and HT can be found.
+
+\u{C}ulo \shortcite{culo2014approaching} called for more exchange between MT and Translation Studies by finding common ground for research that can be mutually beneficial. Concrete ideas and research avenues were also provided in the paper. Continuing the discussion, this paper will take a higher level approach to the theories of translation and how they may affect MT and HT. Section 2 provides an overview of the main paradigms in the history of translation theories. Section 3 tries to define MT and related technologies in view of these paradigms. Section 4 proposes a new outlook on current approaches to MT and Computer Aided Translation (CAT). Finally, some concluding remarks and future directions are discussed.
+
+\section{Overview of paradigms in Translation Theory}
+
+This section provides a brief overview of the main paradigms in translation theory. Pym \shortcite{pym2009exploring} describes five basic paradigms, which together cover most of the individual theories of translation that have been proposed. The following subsections brielfy describe each one.
+
+\subsection{Theories of Equivalence}
+
+The equivalence paradigm postulates that there is an equalness of value between the source text (ST) and the target text (TT) at some level. This paradigm relied heavily on linguistics as can be seen in Catford \shortcite{catford1965linguistic}, who postulated different possible equivalence leves for ST and TT such as phonetic, lexical, syntactic, etc. More generally, the focus in the theories of equivalence is placed on the ST, which is what guides and establishes what will appear in the TT.
+
+\subsection{Skopos or Functional Theories}
+
+Skopos theory introduced a radically new idea in translation: what matters when translating is the purpose (\textit{skopos} in Greek), the function that the TT has to fulfil \cite{holz1984translatorisches,reiss1984grundlegung}. This theory escaped from the constrains of linguistics and the ST to enter the real world, where translators carry out translations according to clients' requirements. Large variations in the TT are acceptable if justified by the function that TT has to fulfil, which is often different from that of the ST. Equivalence is thus relagated to the case where the function is the same for the ST and the TT. 
+
+One of the most profound implications of this theory is that the reasons for choosing to translate a ST in one way or another cannot be found in linguistics, they are found in communication, ethics, sociology, marketing, etc. This lead to the appearance of agents in the paradigm i.e. the client, the employer, users of the translation, etc. The main agents in this paradigm are for some theorists the translators, they are the ones who have the final word on decisions that have to be made and other agents collaborate in this task \cite{reiss1984grundlegung}. For others, the focus is more on the client requirements and not on the translator's individuality \cite{nord1997translation}.
+
+\subsection{Descriptive Theories}
+
+Descriptive Translation Studies, developed in parallel to skopos theories, again presented a breakwaway from previous theories. In this paradigm all translations are equivalent due to them being considered a translation, so the aim is to observe and describe how they differ and what makes them equivalent rather than prescribing a certain type of equivalence or aiming for the TT function as the only valid ways to translate.
+
+One of the main notions in the descriptive paradigm is that of norms, whose main proponet was Toury \shortcite{toury1995nature}. Translations are seen to be produced within a certain culture and society, and at a certain time in history. Norms turn the ideas and values within a society into ``performance instructions", i.e. what can or cannot be done, what is permissable and what isn't \cite{toury1995nature}. Translators will thus adopt different strategies and produce different translations according to the society and historical time they live in. The notion of norms can lead to prescriptivisim: discovering the relevant norms allows for translations to be classified as good or bad for the people from a certain time and society \cite{pym2009exploring}. Here, the focus is on the target society and what they consider to be a translation.
+
+\subsection{Theories of Indeterminacy}
+
+The paradigm of indeterminism questions many of the assumptions of the other paradigms, and even the existance of translation itself. The principle of indeterminacy \cite{quine1969linguistics} postulated that it is impossible to know the real meaning of an utterance, there are always other possible interpretations based on the same empirical evidence. This led to the view for translation that there are always many possible ways to translate a text and it is impossible to be certain that any one of them is right or is equivalent to the ```meaning" of the ST, we can always construct hypothesis to defend one or another both of which can be supported by the same empirical evidence \cite{quine1969linguistics}.
+
+Pym \shortcite{pym2009exploring} groups various related but somewhat different theories in this paradigm. A full overview is not within the scope of this article, but the notion of ``abusive fidelity" \cite{lewis1985measure} is one worth mentioning which will be discussed in the next section. One of the problems with indeterminisim is that it doesn't provide translators with ways of carrying out their work. The closest suggestion is to translate the key points within a text as close as possible to the ST, to the point of making the TT sound strange to the target culture \cite{lewis1985measure}. Thus users are made aware of the translation itself by breaking the illusion of equivalence or the illusion of symmetry between languages \cite{snell1988translation}, the illusion of equivalence, that a universal transfer of meaning is possible.
+
+\subsection{Localisation}
+
+Pym \shortcite{pym2009exploring} introduces and describes localisation as a new paradigm in translation studies. The process of localisation, translating a product into different locales, brings three important concepts. First, the idea of locale, which combines both a language and a specific culture. Second, internationalisation as the process of adapting a ST so that it can easily be translated into various locales. This implies the creation of an intermediate product that is either augmented (more space for strings, adding date formatting options to software, etc.) or simplified through the use of a control natural language.
+
+Third, Pym \shortcite{pym2009exploring} cites the rise of non-linear texts, which are often those that are localised. Non-linear texts are neither translated nor used from beginning to end, but rather fragments are used such as the various strings in a software programme, parts of a reference manual for software or appliances, etc. These products are usually incrementally updated, meaning that future translations are simply the new or modified segments of the product, which can come with little to no context as to where they are to appear.
+
+The three previous factors bring about a change in the way translators work. Translation is but a single step in a larger process of internationalisation, translation, and editing and quality assurance. Translation is reduced to an artificial kind of equivalence weighed down by the importance of reuse and accepting translation memory suggestions or terminology even though it may be wrong or inadequate, with little incentive for translators to want to improve it \cite{pym2009exploring}. Esselink \shortcite{esselink2002localisation} notes that translators should carry out other steps in the localisation process, such as internationalisation and final editing, for which their intercultural skills are much more useful and relevant.
+
+\section{The place of Machine Translation}
+
+The paradigms presented in the previous section are but a brief glimpse at all the opinions and theories that have been proposed about translation, but a detailed review of them is outside of the scope of this paper (more details are thoroughly discussed in Pym \shortcite{pym2009exploring}). What they do provide is a good basis for discussion of machine translation and how it fits in and relates to the paradigms, which is what is discussed in this section.
+
+\subsection{Machine Translation and Equivalence}
+
+As mentioned when discussing the localisation paradigm, Pym \shortcite{pym2009exploring} places MT in the equivalence paradigm, albeit a new kind of equivalence that serves the higher goal of reuse. Looking a the methods statistical machine translation uses today, this would seem to be the case. A large corpus of translated texts are collected, aligned at the sentence level, broken down into phrases or syntactic structures, aligned again and probabilities are calculated. New ST are then broken down into sentences and  the previous pieces are reused to create the TT. Just as was the case in the theories of equivalence, the ST is the main element which will guide what appears in the TT and linguistics is all that matters. 
+
+\subsection{Machine Translation and Skopos}
+
+\u{C}ulo \shortcite{culo2014approaching} characterises MT as being instrumental and aiming to be functionally constant. Thus, MT is still stuck in the equivalence paradigm, but limited to cases where the ST and TT functions are the same. The problem arises when considering the corpora that SMT systems are based on: since they will have been translated by different people, from different sources and for different purposes, can we be certain that what resulting translations will be functionally identical? What is more, statistical systems will choose the most probable translation options from this amalgama, can probability really guarantee functional equivalence? From the point of view of descriptive theories, it might well be that the most probable translations that SMT generates correspond to translation norms present in the parallel corpus used. Studies would be required analysing if this is the case.
+
+If we take a wider view, we can see that MT does indeed use skopos theory. The techniques of domain adaptation and the use of in-domain data imply that the MT developer is thinking about the users of the TT and modifying the TT accordingly. Translators change their translation strategies in order to adapt the TT to the target culture. Since changing the MT system is costly and can involve much research and effort, the next best approach is used to adapt the TT: use data that closely resembles it. The methods and results are different, but the aim is the same. This implies that linguistics (or its statistical proxy) is not the be-all and end-all in translation, but that external factors have to be taken into account. 
+
+
+\section{A New Outlook on Machine Translation}
+
+After defining where MT currently stands, we propose a new outlook on it and related technologies informed by the theoretical paradigms described in section 2. First, we can define a continuum between MT and human translation (HT) where we can place man-machine interaction workflows. On one end, HT would imply completely ``manual" translation in the sense that CAT, translation memory (TM) and other related tools are not used. At the other end, MT implies systems where a human mediator (be it a translator or other) is not present. Betwen the two extremes we can place CAT tools and post-editing (PE) as the main paradigms used today in the translation and localisation industries.
+
+\subsection{The State of Gisting MT}
+
+Fully automatic MT, in which a user gives a ST to an MT system and receives a translation, is typically called gisting due to the low quality of the output. What are gisting systems used for, or in other words, what functions are required of them? The typical answer is to get a rough idea of the ST meaning. The problem is that the notion of ``rough meaning" is a very loosely defined function or aim. Gisting systems can be used for many purposes, such as to translate a set of instructions in order to operate a machine, to translate a politician's speech to decide if we would vote for them, etc. From a functional perspective, these aims may or may not be the same as those of the ST. If they aren't, end users usually cannot direct the system to use techniques such as domain adaptation nor are they aware that translations need to be adapted in some way.
+
+The aims may or may not be met by the gisting system: the instructions may be wrong or difficult to follow, the politician's proposals may refer to modifying a legal system of which the end user has no knowledge. So why do people use gisting systems? Because of trust: the same way a client trusts a translator to produce a good translation, users of gisting systems trust the output is a translation. This is what Snell-Hornby \shortcite{snell1998translation} calls the illusion of symmetry between languagues: beyond whether equivalence exists and the theories of indeterminism, users believe that meaning is something that can be passed from one language into another and something that a gisting MT system can give them. 
+
+The illusion of equivalence can be broken in two ways. First, when end users realise the translations don't meet their expectations (they cannot follow the instructions, they can't decide whether they would vote for a politician). Secondly, when the translation is outright ungrammatical and nonsensical, making users doubt the translation. In the future, MT systems will improve the grammaticality of the translations. Going forward, MT systems will provide \textit{believable} output and users will have no reason to doubt the translation until they realise it doesn't fulfil their needs. Can a gisting MT system tailor its TT to its end users and their infinitely many kinds of ST and purposes? In their current form, I would argue that they cannot since they cannot access the end users requirements for the translation, end users are generally not aware that they need to give requirements and they most likely would not want to bother inputing all the additional information.
+
+\subsection{Reimagining Gisting MT}
+
+Gisting MT can be reenvisaged. If it cannot reliably generate a tailored TT just like that human translators can, maybe it should generate something different. Instead of a tailored text, an MT could generate a \textit{tailorable} text. This requires a redefinition of a text as a static, monolithical object. The paradigm of localisation has already broken away from the notion that the ST is king by modifying it to produce an internationalised ST that is then translated into other languages. A tailorable text would be a similar idea, but as a step previous to the final translation. End users of a tailorable text could tweak different kinds of variables, such as degree of formality, use of passives, lexical selection, etc. In addition, cultural terms or notions present in the ST that can be unfamiliar for other cultures could be hyperlinked to a Wikipedia article, a website or an Internet search that would allow end users to inform themselves about the nature of the term so they can decide for themselves what is best.
+
+This is just a suggestion whose implementation may or may not be feesible in the near future, but it stems from a central idea. In the absence of an agent mediating between the ST and the end user, empower end users by giving them options and making them aware of problematic areas within the text so they can decide for themselves what they need. Under this conception, gisting systems now have a new theoretic aim, to expose end users to the complexities and pluralities of the ST instead of providing them with an imperfect translation that doesn't fulfil their needs.
+
+This proposal doesn't come without downsides. At a lower level, it can also be argued that end users don't have time to tweak a text just as they don't have time to think about their needs and input them into the system. At a higher level, end users probably don't have sufficient knowledge about the source language and culture or about how their own needs translate into linguistic elements to create a good translation from a tailaroable text. For example, they may not know about the way social relations of teacher-student or employer-employee manifest in different language forms in Japanese or how that is relevant to the extract from a Japanese  company website they're currently translating where very formal language is used to address the client. But it is more ethical to make them aware of the fact and that this can be translated in different ways instead of perpetuating the illusion of equivalence.
+
+\subsection{Computer Aided Translation}
+
+\section{Conclusions}
+
+Bla
+
+\bibliographystyle{eamt15}
+\bibliography{thesis}
+
+
+\end{document}

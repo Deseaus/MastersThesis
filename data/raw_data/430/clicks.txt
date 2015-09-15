@@ -1,0 +1,8 @@
+Participant ID:     430
+Experiment order:   231
+Setup:              SCRATCH
+Time:               2015-05-25 09:28:55.725911
+Click time (unix):  1432560535.725904
+
+# CLICK SCRATCH 1432560535.725904
+

@@ -1,0 +1,50 @@
+% Chapter 3
+\chapter{Computer-Assisted Translation} 
+\label{ch:cat} 
+
+%----------------------------------------------------------------------------------------
+
+\section{Man, Machine and Everything In-Between}
+
+\noindent Let us place translation on a linear continuum. On one end sits \ac{HT}, performed by human translators from scratch. However, this does not mean that they don't use computers to search online dictionaries, databases, websites, articles, style guides, help forums and a plethora of other resources. They do, and it is an integral part of the tasks a translator carries out. 
+
+On the other end of the continuum sits \ac{MT}, perfomed by machines without human intervention. However, this is only partly true. The most widespread type of \ac{MT} systems today, \ac{SMT} systems, rely on huge corpora of aligned texts previously translated by human translators. Even rule-based systems rely on the human thought put into building the rules. Just like skopos and descriptive theories grounded translation into the real world as an activity carried out by people, away from the abstract equivalence paradigm, the same can be done for \ac{MT}. As described in \autoref{sec:mt_theory}, \ac{MT} does not carry out translation in a platonic world of ideas and $argmax$es, but someone in the real world designs the systems and someone uses them to translate texts for a certain purpose. Thus it is clear that our linear continuum is not as black and white, man vs. machine, as it first seemed.
+
+%------------------------------------------------
+
+\subsection{Current State of CAT Tools}
+
+\noindent Somewhere in the middle of the continuum, closer to \ac{HT} than \ac{MT}, sit \ac{CAT} tools. These provide a wealth of features to help translators carry out their translations. The most widely-used of these tools today is Trados\footnote{\url{http://www.translationzone.com/trados.html}}. In 2006 a survey of language professionals reported that 76~\% of its respondents used it \parencite{lagoudaki2006translation}.
+
+The main feature of \ac{CAT} tools are Translation Memories (\acsp{TM}). A \ac{TM} is a database of a translator's previous translations, segmented into sentences and aligned. When a translator has a new text to translate, each sentence-segment in the \ac{ST} is string matched against those in the \ac{TM} database. If a match is found above a pre-determined threshold of similarity, the match is presented to the translator as a suggested translation for the current segment. This tool is especially useful when translating updates to manuals or other similar text types, where the majority of sentences have already been previously translated.
+
+Similarly, glossaries of bilingual terms can be created and function in much the same fashion as a \ac{TM}, but for smaller units such as words or multi-word units. Recent research has focused on augmenting \ac{TM}s by including smaller subsentential units, effectively combining them with glossaries. For example, \textcite{chuang2005collocational} present a method to extract collocations from corpora and build \ac{TM}s out of them.
+
+Some of the other main features of \ac{CAT} tools are related to project management, especially for localisation, where texts are frequently non-linear (as discussed in \autoref{sub:localisation}) and can come in many formats that are difficult to handle for a translator, such as \spacedlowsmallcaps{HTML, XML} and others. \ac{CAT} tools extract the strings to be translated and present them to translators in a consistent interface, usually a two-column window of cells: in one column the \ac{ST} segmented into sentences and in the other textboxes waiting for the translation of the corresponding segment. Some \ac{CAT} tools also enable easy collaboration between teams of translators, allowing them to work on a shared \ac{TM} and glossary hosted on a server.
+
+Recently, research into \ac{CAT} tools has picked up. For example, the open-source tool MateCat \parencite{federico2014matecat} has been developed in an effort to integrate \ac{MT} and \ac{CAT} tools, moving futher towards setting \ac{PE} as the norm. 
+
+%------------------------------------------------
+
+\subsection{Problems With CAT Tools}
+
+\noindent Despite the many advantages of \ac{CAT} tools presented in the previous section, numerous studies have identified problems, especially with regards to the way translators translate when using them and how it effects their mental processes. \textcite{christensen2011studies} provides an overview of a number of studies into \ac{TM} usage and their effects on translator cognitive processes, some of which are discussed below.
+
+\textcite{dragsted2004segmentation,dragsted2006computer} found that translators don't mentally segment into sentences, but rather tend to use phrases and clauses. This clashes with the sentence segmentation that \ac{TM} forces. A further finding was that translators using a \ac{TM} tended to revise sentence by sentence as they go along rather than carrying out a whole global revision at the end as they would when not using one. 
+
+\textcite{christensen2011impact} investigated the effect of \ac{TM} on students right after they used \ac{CAT} tools for the first time. Students reported that the technology was useful but also deceptive, since they felt they lost control of the process, lost track of the aim of the translation, etc. They also reported that translation become mechanical and much less creative and functional. 
+
+Moving away from the mental process of translators and looking at the translations themselves, \textcite{jimenez2010effect} carried out a contrastive analysis of web texts localised using a \ac{TM} and texts spontaneously produced in the source language. He found that differences in the text superstructure are present, indicating the source text structure was being closely replicated. Texts translated with a \ac{TM} also showed lower levels of lexical and typographic consistency. However, he does note that \ac{TM} is probably only one of many factors that combined to produce the observed differences.
+
+%----------------------------------------------------------------------------------------
+
+\section{Post-Editing Machine Translation}
+
+\noindent Coming back to the continuum introduced at the beginning of this chapter, \acf{PE} sits close to the \ac{MT} end. \acl{PE} consists in having translators edit a translation produced by an \ac{MT} system in order to improve its quality. Recently, \ac{PE} has gained importance both in research and in industry usage. \textcite{carl2015post} claim that the recent surge in interest is due to the rise in demand for translation and the inability for human translators to keep up with this demand.
+
+\textcite{carl2015post} propose different types and quality levels for post-editing, ranging from light \ac{PE} aimed at changing only what is necessary for text comprehension, and full \ac{PE} aimed at bringing \ac{MT} output to the quality produced by a human translator. However, as the authors discuss, this has an impact on translators as it is difficult to ask them to produce a translation they consider to be of low quality, generating a negative attitude towards \ac{PE}. Most research into \ac{PE} revolves around the light variant, with little attention being paid to ``full \ac{PE}''. 
+
+\textcite{carl2015post} also conducted a study with translators, revealing that 83~\% of participants would have preferred to translate from scratch rather than use \ac{PE}. Some authors have argued for the need to teach \ac{PE} as a separate skill in order to familiarise students with the workflow and expectations \parencite{obrien2002teach}. It is not clear, however, if the approach of adapting translators to the tools is a better way forward than adapting the tools to the translators.
+
+%----------------------------------------------------------------------------------------
+

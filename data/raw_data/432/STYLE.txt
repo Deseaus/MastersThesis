@@ -1,0 +1,20 @@
+Participant ID:     432
+Experiment order:   321
+Setup:              STYLE
+Start:              2015-05-23 10:26:55
+End:                2015-05-23 10:44:25.869183
+Total time (s):     1051.0
+Start time (unix):  1432391215.0
+End time (unix):    1432392265.8691993
+
+Translation:
+
+
+
+El área de investigación de la IA se fundó en una conferencia en el campus de Dartmouth College en agosto de 1956.
+
+En 1973 los Gobiernos de EEUU y de Reino Unido dejaron de financiar investigaciones sobre la inteligencia artificial no dirigidas.
+
+Siete años más tarde, una iniciativa visionaria por parte del Gobierno japonés hizo que otros gobiernos e industrias financiasen la IA con miles de millones de dólares. Sin embargo al final de la década de los ochenta los inversores acabaron desilusionándose y retiraron las financiaciones.
+
+Este círculo de auges, fracasos, de inviernos y veranos sigue persiguiendo el área de la IA.

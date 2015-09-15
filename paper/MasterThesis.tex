@@ -1,0 +1,154 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Classicthesis Typographic Thesis
+% LaTeX Template
+% Version 1.3 (15/2/14)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% André Miede (http://www.miede.de)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% General Tips:
+% 1) Make sure to edit the classicthesis-config.file
+% 2) New enumeration (A., B., C., etc in small caps): \begin{aenumerate} \end{aenumerate}
+% 3) For margin notes: \marginpar or \graffito{}
+% 4) Do not use bold fonts in this style, it is designed around them
+% 5) Use tables as in the examples
+% 6) See classicthesis-preamble.sty for useful commands
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[
+		twoside,openright,titlepage,numbers=noenddot,headinclude,%1headlines,
+                footinclude=true,cleardoublepage=empty,
+                BCOR=5mm,paper=a4,fontsize=11pt, % Binding correction, paper type and font size
+                ngerman,american, % Languages
+                ]{scrreprt} 
+                
+% Includes the file which contains all the document configurations and packages - make sure to edit this file
+\input{classicthesis-config}
+
+% Make acronym links black
+\makeatletter
+\AtBeginDocument{%
+  \renewcommand*{\AC@hyperlink}[2]{%
+    \begingroup
+      \hypersetup{hidelinks}%
+      \hyperlink{#1}{#2}%
+    \endgroup
+  }%
+}
+\makeatother
+
+%----------------------------------------------------------------------------------------
+%	DOCUMENT
+%----------------------------------------------------------------------------------------
+\begin{document}
+
+\frenchspacing % Reduces space after periods to make text more compact
+\raggedbottom % Makes all pages the height of the text on that page
+\selectlanguage{american} % Select your default language - e.g. american or ngerman
+
+%\renewcommand*{\bibname}{Bibliography} % Uncomment to change the name of the bibliography
+%\setbibpreamble{} % Uncomment to include a preamble to the bibliography - some text before the reference list starts
+
+\pagenumbering{roman} % Roman page numbering prior to the start of the thesis content (i, ii, iii, etc)
+\pagestyle{plain} % Suppress headers for the pre-content pages
+
+%----------------------------------------------------------------------------------------
+%	PRE-CONTENT THESIS PAGES
+%----------------------------------------------------------------------------------------
+
+\include{FrontBackMatter/Titlepage} % Main title page
+\include{FrontBackMatter/Titleback} % Back of the title page
+\cleardoublepage\include{FrontBackMatter/Dedication} % Dedication page
+%\cleardoublepage\include{FrontBackMatter/Foreword} % Uncomment and create a Foreword.tex to include a foreword
+\cleardoublepage\include{FrontBackMatter/Abstract} % Abstract page
+%\cleardoublepage\include{FrontBackMatter/Publication} % Publications from the thesis page
+\cleardoublepage\include{FrontBackMatter/Acknowledgments} % Acknowledgements page
+\pagestyle{scrheadings} % Show chapter titles as headings
+\cleardoublepage\include{FrontBackMatter/Contents} % Contents, list of figures/tables/listings and acronyms
+
+\cleardoublepage
+
+\pagenumbering{arabic} % Arabic page numbering for thesis content (1, 2, 3, etc)
+%\setcounter{page}{90} % Uncomment to manually start the page counter at an arbitrary value (for example if you wish to count the pre-content pages in the page count)
+
+\cleardoublepage % Avoids problems with pdfbookmark
+
+%----------------------------------------------------------------------------------------
+%	THESIS CONTENT - CHAPTERS
+%----------------------------------------------------------------------------------------
+
+%\ctparttext{
+%\begin{flushright}{\slshape    
+%The White Rabbit put on his spectacles. `Where shall I begin, please your Majesty?' he asked. \\
+%`Begin at the beginning,' the King said gravely, `and go on till you come to the end: then stop.' \\} 
+%\medskip
+%--- Alice in Wonderland
+%\end{flushright}
+%} % Text on the Part 1 page describing  the content in Part 1
+
+\part{Introduction and background} % First part of the thesis
+
+\include{Chapters/Chapter01} % Chapter 1
+\include{Chapters/Chapter02} % Chapter 2
+\include{Chapters/Chapter03} % Chapter 3
+
+\cleardoublepage % Empty page before the start of the next part
+
+%------------------------------------------------
+
+\ctparttext{} % Text on the Part 3 page describing the content in Part 3
+\part{A Unified Methodology} % Third part of the thesis
+\include{Chapters/Chapter04} % Chapter 4
+\include{Chapters/Chapter06} % Chapter 6
+\include{Chapters/Chapter07} % Chapter 7
+\include{Chapters/Chapter08} % Chapter 8
+\include{Chapters/Chapter09} % Chapter 9
+
+%------------------------------------------------
+
+\ctparttext{} % Text on the Part 4 page describing the content in Part 4
+\part{Results} % Fourth part of the thesis
+
+
+\include{Chapters/Chapter10} % Chapter 10
+\include{Chapters/Chapter11} % Chapter 11
+
+\cleardoublepage % Empty page before the start of the next part
+
+%----------------------------------------------------------------------------------------
+%	THESIS CONTENT - APPENDICES
+%----------------------------------------------------------------------------------------
+
+\appendix
+
+\part{Appendix} % New part of the thesis for the appendix
+
+\include{Chapters/Chapter0C} % Appendix Experiment Walkthrough
+\include{Chapters/Chapter0A} % Appendix Questionnaires
+\include{Chapters/Chapter0B} % Appendix Texts
+\include{Chapters/Chapter0D} % Appendix Code
+
+
+%----------------------------------------------------------------------------------------
+%	POST-CONTENT THESIS PAGES
+%----------------------------------------------------------------------------------------
+
+\cleardoublepage\include{FrontBackMatter/Bibliography} % Bibliography
+\cleardoublepage\include{FrontBackMatter/Lists} % Lists of tables and figures
+\cleardoublepage\include{FrontBackMatter/Colophon} % Colophon
+%\cleardoublepage\include{FrontBackMatter/Declaration} % Declaration
+
+%----------------------------------------------------------------------------------------
+
+\end{document}

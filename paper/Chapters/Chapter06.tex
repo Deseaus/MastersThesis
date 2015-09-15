@@ -1,0 +1,66 @@
+% Chapter X
+
+\chapter{Experiment Overview} % Chapter title
+\label{ch:experiment}
+
+%----------------------------------------------------------------------------------------
+
+\section{General Hypothesis and Evaluation}
+
+\noindent As stated in \autoref{ch:introduction}, this thesis formulates the following hypothesis:
+
+\begin{quote}
+\paragraph{Hypothesis:} The methodology laid out in \autoref{ch:methodology} will allow \ac{CAT} tools to be developed and evaluated based on how well they perform intrinsically as well as extrinsically with translators.
+\end{quote}
+
+\noindent In order to evaluate the methodology, a case study was used. Specifically, a \ac{CAT} tool called StyleCheck was designed and evaluated. Then, a metaevaluation of the methodology is carried out. To sustain the hypothesis, the methodology should:
+
+\begin{aenumerate}
+    \item Allow for a \ac{CAT} tool to be developed and evaluated with translators in mind. Specifically, it should show effects of the tool on the whole translation process (product, process and agent; translation, translating and translator). 
+    \item Provide tools that generate sufficient data for the tool to be evaluated as laid out before.
+\end{aenumerate}
+
+%------------------------------------------------
+
+\section{Online Experiment}
+\label{sec:online}
+
+\noindent StyleCheck was develiped for the case study, a tool to check if style guide rules are applied in a text and give translators a suggestion if they aren't (see \autoref{ch:stylecheck} for details). A special website was created to allow StyleCheck to be evaluated by translators. This allowed participants to work from their own computers in a setting familiar to them. The Spanish Wikipedia style guide was chosen and three text fragments were selected to be translated from English into Spanish. Three setups in which to translate the text were devised:
+
+\begin{enumerate}
+    \item \textit{Translation from scratch} (\spacedlowsmallcaps{scratch}): The text was translated from scratch without any \ac{CAT} tool assistance. Translators were free to translate as they normally would, including searching on the Internet and in databases for translations, finding more information about the text topic, etc.
+    \item \textit{Post-Editing} (\ac{PE}): A machine translation of the text provided by Google Translate\footnote{\url{https://translate.google.com/}} was given to participants. So as to avoid negative connotations that Google Translate may have for translators, they were simply told the suggestions came from an \ac{MT} engine without specifying which one. \textcite{carl2015post} provided participants in their study with a set of guidelines for how to post-edit. No such guidelines were offered in this experiment, instead opting to give translators freedom to use the suggestions as much or as little as they wanted.
+    \item \textit{Translation using StyleCheck} (\spacedlowsmallcaps{style}): In this setting, when a participant finishes translating a sentence and moves to the next, the previous sentence is checked using StyleCheck and any returned style hints are presented to the participant. Translators can then choose to follow the style hint or ignore it.
+\end{enumerate}
+
+In order to obtain varied data, the text and setup combinations were shuffled. This created six combinations that ensured each text was translated twice in each setup. Thus, the minimum number of participants required for the experiment was six.
+
+Participants were gathered through the Internet. A call for participation in the experiment was posted in various translation-related Facebook groups whose participants are mostly translators or translation students. Participants were asked to contact an email address to request a unique participation link. It was hoped that this approach would limit the number of participants who abandoned the experiment half-way through, as they had implicitely commited to carrying it out. This was especially desirable given that each participant was given a different text-setup order and all possible combinations needed to be covered with the minimum number of participants. If the website had generated the order and Participant \spacedlowsmallcaps{ID} automatically, a high rate of abandonment or curious people clicking through a couple of pages may have ended with results not covering all possible text combinations and being skewed.
+
+Participants did not receive payment or other kinds of compensation for their participation in the experiment due to the lack of funding available for this thesis. This could influence the results as translators may be inclined to put less effort into the translations if they don't receive any compensation. Ideally, experiments with translators should include payment in line with market prices so that they feel they are translating as they would with a normal client.
+
+Following the proposed methodology, the StyleCheck tool is evaluated using \ac{TPR} methodologies. Despite many advanced monitoring tools such as eye-trackers and screen recording being used today, this thesis takes a simpler approach. The online website format used for the experiment limits the hardware capabilities to participants' own computers and limits the software to what can be acheived with a small server and web browser combination.
+
+Both online and offline methodologies were used. The online data recorded is detailed in \autoref{sec:logging} and was collected on the server. Offline verbal report data was also collected through the use of retrospective questionnaires. Offline verbalisation does not affect the task and subject's mental processess as much as online methods do (for example, think-aloud protocols). The downside of verbalisation is that if the process to be observed (e.g. \ac{PE} or using a \ac{TM}) has become routine, the steps to perform no longer live in the short-term memory and are thus not accessible through verbalisation. This can have an impact if the participants have extensive previous experience with the task to be carried out. 
+
+Finally, the collected data was analysed and contrasted in order to see if the hypotheses could be strengthened.
+
+%------------------------------------------------
+
+\section{Case Study: Wikipedia}
+
+\noindent Wikipedia was chosen as the subject for the experiment case study, since it contains freely available texts and also has style guides for various languages. First, an imaginary translation brief was created so that participants could use it as a guide for their translation choices:
+
+\begin{quote}
+Wikipedia set up a crowdfunding campaign in an effort to pay for some professional translations of articles very popular in different regions of the world. After a huge success, they invited applications from translators. You applied and have now been selected to translate three articles from English into Spanish. Wikipedia has reminded you of the global nature and scale of the project and has provided \href{http://es.wikipedia.org/wiki/Wikipedia:Manual_de_estilo}{a link to its style guide} in order to help you translate.
+\end{quote}
+
+The brief included a link to the Spanish Wikipedia Style Guide. Clicks on this link by participants were logged (see \autoref{sec:logging}). The three texts used for the experiments can be found in \autoref{app:texts}. After an in-depth look at the style guide, the texts were chosen following three criteria:
+
+\begin{itemize}
+\item The text subject matter should not be specialized.
+\item Various style rules could apply to the text.
+\item The text should not present major translation problems that would require a lot of time and research to solve.
+\end{itemize}
+
+The texts will be referred to as \ai, \charlotte and \garfield in the rest of this thesis.

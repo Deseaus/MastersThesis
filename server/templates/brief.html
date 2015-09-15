@@ -1,0 +1,59 @@
+{% extends "layout.html" %}
+
+{% block title %}Translation Brief{% endblock %}
+
+{% block meta %}
+<meta name="description" content="">
+<meta name="author" content="Daniel Vidal Hussey">
+{% endblock %}
+
+{% block content %}
+<h1 id="main" class="text-center">Translation Brief</h1>
+
+
+<div class="row">
+    <div class="col-md-6 col-md-offset-3">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <p> 
+                    Below is a description of the translation brief. It will be repeated on the following pages so that you can read it again if you wish to.
+                </p>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title text-center">Translation brief</h3>
+            </div>
+            <div class="panel-body">
+                <p> 
+                Wikipedia set up a crowdfunding campaign in an effort to pay for some professional translations of articles very popular in different regions of the world. After a huge success, they invited applications from translators. You applied and have now been selected to translate three articles from English into Spanish. Wikipedia has reminded you of the global nature and scale of the project and has provided <a href="http://es.wikipedia.org/wiki/Wikipedia:Manual_de_estilo" target="_blank" id="wikistyle">a link to its style guide</a> in order to help you translate.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-9 col-md-offset-5">
+        <a href="/setup-one/{{ experiment.participant_id }}/{{ experiment.order }}" class="btn btn-primary" role="button">
+            <span class="glyphicon glyphicon-circle-arrow-right"></span>
+            Next
+        </a>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+$(document).ready(function(){
+    $("#wikistyle").click(function() {
+        var data = {
+            participant_id: "{{ experiment.participant_id }}",
+            order: "{{ experiment.order }}",
+            setup: "{{ experiment.setup }}",
+        };
+        $.post("/style-click", data);
+    });
+});
+</script>
+{% endblock %}

@@ -1,0 +1,20 @@
+Participant ID:     430
+Experiment order:   231
+Setup:              STYLE
+Start:              2015-05-25 10:02:46
+End:                2015-05-25 10:13:02.971053
+Total time (s):     617.0
+Start time (unix):  1432562566.0
+End time (unix):    1432563182.971063
+
+Translation:
+
+
+
+El campo de investigación sobre inteligencia artificial se estableció en 1956, en una conferencia en el campus de la universidad de Dartmouth, en Estados Unidos.
+
+En 1973 los gobiernos de Inglaterra y Estados Unidos dejaron de financiar cualquier investigación sobre inteligencia artificial.
+
+Siete años después, el gobierno japonés llevó a cabo una iniciativa visionaria que resultó ser una fuente de inspiración para otros gobiernos y para la industria para conceder fondos para la investigación de la inteligencia artificial. Sin embargo, a finales de los años ochenta el pesimismo hizo recortar de nuevo las dotaciones económicas para la investigación.
+
+Esta situación de idas y venidas en la financiación para el estudio de la inteligencia artificial sigue afectando a este campo de investigación.

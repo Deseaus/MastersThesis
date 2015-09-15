@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+
+{% block title %}Error{% endblock %}
+
+{% block meta %}
+<meta name="description" content="">
+<meta name="author" content="">
+{% endblock %}
+
+{% block content %}
+<strong>An unexpected error has occurred</strong>
+{% if error %}
+<p>{{ error }}!</p>
+{% else %}
+<p>Try reloading the page</p>
+{% endif %}
+<p>Python version: {{ version }}</p>
+<p>Python executable: {{ path }}</p>
+<p>Python env: {{ env }}</p>
+{% endblock %}

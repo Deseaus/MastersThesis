@@ -1,0 +1,20 @@
+Participant ID:     421
+Experiment order:   123
+Setup:              SCRATCH
+Start:              2015-05-22 10:37:51
+End:                2015-05-22 10:52:11.079030
+Total time (s):     860.0
+Start time (unix):  1432305471.0
+End time (unix):    1432306331.079043
+
+Translation:
+
+
+
+El año 1956 se fundó en la Universidad de Dartmouth una conferencia para la investigación en el campo de la inteligencia artificial.
+
+En 1973 el gobierno británico y estadounidense detuvieron la financiación de la investigación en el ámbito de la inteligencia artificial.
+
+Siete años después, una visionaria iniciativa llevada a cabo por el gobierno japonés alentó a gobiernos e industrias a invertir millones y millones de dólares en inteligencia artificial. No obstante, a finales de los años 80 los inversores, desilusionados, dejaron de proporcionar ayuda económica.
+
+El ámbito de la inteligencia artificial no logra zafarse de este interminable ciclo de altibajos entre el auge y la decadencia.

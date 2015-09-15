@@ -1,0 +1,26 @@
+Participant ID:     432
+Experiment order:   321
+Setup:              PE
+Start:              2015-05-23 10:08:24
+End:                2015-05-23 10:26:55.164174
+Total time (s):     1111.0
+Start time (unix):  1432390104.0
+End time (unix):    1432391215.164188
+
+Translation:
+
+
+
+Charlotte Gyllenhammar, nacida en 1963, es una artista plástica con sede en Estocolmo, Suecia.
+
+
+
+Comenzó su carrera como pintora, pero rápidamente se trasladó a la escultura y la instalación después de acabar sus estudios en la Universidad Real de Arte de Londres.
+
+
+
+La obra <i>Muere por ti</i> fue el primer paso en una progresión de imágenes y entornos con una inversión de su perspectiva.
+
+Por ejemplo, la reclusión y la inversión son evidentes en su sucesión de fotografías y vídeos de mujeres en suspensión tituladas <i>Belle</i> (1998), <i>Otoño</i> (1999), <i>Desobediencia</i> (1998), y la más reciente <i>Colgada</i> (2006).
+
+

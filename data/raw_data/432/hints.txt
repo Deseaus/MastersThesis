@@ -1,0 +1,352 @@
+Participant ID:     432
+Experiment order:   321
+Time:               2015-05-23 10:27:40.017501
+Save time (unix):   1432391260.01749
+
+# Original:
+
+El campo de la investigación
+
+# Hints provided:
+
+
+
+================================================
+Participant ID:     432
+Experiment order:   321
+Time:               2015-05-23 10:28:41.164633
+Save time (unix):   1432391321.1646185
+
+# Original:
+
+El campo de la investigación
+
+# Hints provided:
+
+
+
+================================================
+Participant ID:     432
+Experiment order:   321
+Time:               2015-05-23 10:28:50.676852
+Save time (unix):   1432391330.6768386
+
+# Original:
+
+El campo de la investigación
+
+# Hints provided:
+
+
+
+================================================
+Participant ID:     432
+Experiment order:   321
+Time:               2015-05-23 10:29:45.386208
+Save time (unix):   1432391385.3861952
+
+# Original:
+
+El campo de investigación de la IA
+
+# Hints provided:
+
+
+
+================================================
+Participant ID:     432
+Experiment order:   321
+Time:               2015-05-23 10:30:07.508587
+Save time (unix):   1432391407.5085754
+
+# Original:
+
+El área de investigación de la IA
+
+# Hints provided:
+
+
+
+================================================
+Participant ID:     432
+Experiment order:   321
+Time:               2015-05-23 10:30:41.033043
+Save time (unix):   1432391441.0330276
+
+# Original:
+
+El área de investigación de la IA se fundo en una conferencia en el campus de la 
+
+# Hints provided:
+
+
+
+================================================
+Participant ID:     432
+Experiment order:   321
+Time:               2015-05-23 10:31:48.835360
+Save time (unix):   1432391508.835348
+
+# Original:
+
+El área de investigación de la IA se fundó en una conferencia en el campus de Dartmouth College
+
+# Hints provided:
+
+
+
+================================================
+Participant ID:     432
+Experiment order:   321
+Time:               2015-05-23 10:32:05.843152
+Save time (unix):   1432391525.8431365
+
+# Original:
+
+El área de investigación de la IA se fundó en una conferencia en el campus de Dartmouth College
+
+# Hints provided:
+
+
+
+================================================
+Participant ID:     432
+Experiment order:   321
+Time:               2015-05-23 10:32:29.863002
+Save time (unix):   1432391549.862986
+
+# Original:
+
+El área de investigación de la IA se fundó en una conferencia en el campus de Dartmouth College en el verano de 1956.
+
+# Hints provided:
+
+
+Al incluir una determinada fecha no se debe hacer alusión a la estación del año en que sucederá el acontecimiento, puesto que puede ocasionar confusiones, tanto por la instrucción del lector, como por el cambio hemisférico del planeta. Así se escribirá: «En abril de 2005» y no «En otoño de 2005».
+
+
+================================================
+Participant ID:     432
+Experiment order:   321
+Time:               2015-05-23 10:32:56.293907
+Save time (unix):   1432391576.2938914
+
+# Original:
+
+El área de investigación de la IA se fundó en una conferencia en el campus de Dartmouth College en el verano de 1956.
+
+# Hints provided:
+
+
+Al incluir una determinada fecha no se debe hacer alusión a la estación del año en que sucederá el acontecimiento, puesto que puede ocasionar confusiones, tanto por la instrucción del lector, como por el cambio hemisférico del planeta. Así se escribirá: «En abril de 2005» y no «En otoño de 2005».
+
+
+================================================
+Participant ID:     432
+Experiment order:   321
+Time:               2015-05-23 10:33:55.578303
+Save time (unix):   1432391635.578289
+
+# Original:
+
+El área de investigación de la IA se fundó en una conferencia en el campus de Dartmouth College en agosto de 1956.
+
+# Hints provided:
+
+
+
+================================================
+Participant ID:     432
+Experiment order:   321
+Time:               2015-05-23 10:33:59.788734
+Save time (unix):   1432391639.7887175
+
+# Original:
+
+El área de investigación de la IA se fundó en una conferencia en el campus de Dartmouth College en agosto de 1956.
+
+# Hints provided:
+
+
+
+================================================
+Participant ID:     432
+Experiment order:   321
+Time:               2015-05-23 10:34:28.340191
+Save time (unix):   1432391668.3401809
+
+# Original:
+
+En 1973 los gobiernos de EEUU y de Reino Unido
+
+# Hints provided:
+
+
+Determinados nombres, cuando designan entidades o colectividades institucionales: la Universidad, el Estado, el Ejército, el Reino, la Marina, la Judicatura, el Gobierno. En muchos casos, esta mayúscula tiene una función diacrítica o diferenciadora, ya que permite distinguir entre acepciones distintas de una misma palabra: Iglesia (‘institución’) / iglesia (‘edificio’), Ejército(‘institución’) / ejército (‘conjunto de soldados’), Gobierno (‘conjunto de los ministros de un Estado’) / gobierno (‘acción de gobernar’). La mayúscula diacrítica afecta tanto al singular como al plural: «Europa es importante para los Gobiernos, pero sobre todo para los ciudadanos» (País [Esp.] 9.1.97).
+
+
+================================================
+Participant ID:     432
+Experiment order:   321
+Time:               2015-05-23 10:35:01.298684
+Save time (unix):   1432391701.2986734
+
+# Original:
+
+En 1973 los Gobiernos de EEUU y de Reino Unido 
+
+# Hints provided:
+
+
+Determinados nombres, cuando designan entidades o colectividades institucionales: la Universidad, el Estado, el Ejército, el Reino, la Marina, la Judicatura, el Gobierno. En muchos casos, esta mayúscula tiene una función diacrítica o diferenciadora, ya que permite distinguir entre acepciones distintas de una misma palabra: Iglesia (‘institución’) / iglesia (‘edificio’), Ejército(‘institución’) / ejército (‘conjunto de soldados’), Gobierno (‘conjunto de los ministros de un Estado’) / gobierno (‘acción de gobernar’). La mayúscula diacrítica afecta tanto al singular como al plural: «Europa es importante para los Gobiernos, pero sobre todo para los ciudadanos» (País [Esp.] 9.1.97).
+
+
+================================================
+Participant ID:     432
+Experiment order:   321
+Time:               2015-05-23 10:35:12.246005
+Save time (unix):   1432391712.2459915
+
+# Original:
+
+En 1973 los Gobiernos de EEUU y de Reino Unido 
+
+# Hints provided:
+
+
+Determinados nombres, cuando designan entidades o colectividades institucionales: la Universidad, el Estado, el Ejército, el Reino, la Marina, la Judicatura, el Gobierno. En muchos casos, esta mayúscula tiene una función diacrítica o diferenciadora, ya que permite distinguir entre acepciones distintas de una misma palabra: Iglesia (‘institución’) / iglesia (‘edificio’), Ejército(‘institución’) / ejército (‘conjunto de soldados’), Gobierno (‘conjunto de los ministros de un Estado’) / gobierno (‘acción de gobernar’). La mayúscula diacrítica afecta tanto al singular como al plural: «Europa es importante para los Gobiernos, pero sobre todo para los ciudadanos» (País [Esp.] 9.1.97).
+
+
+================================================
+Participant ID:     432
+Experiment order:   321
+Time:               2015-05-23 10:35:25.619315
+Save time (unix):   1432391725.6193027
+
+# Original:
+
+En 1973 los Gobiernos de EEUU y de Reino Unido dejaron de financiar 
+
+# Hints provided:
+
+
+Determinados nombres, cuando designan entidades o colectividades institucionales: la Universidad, el Estado, el Ejército, el Reino, la Marina, la Judicatura, el Gobierno. En muchos casos, esta mayúscula tiene una función diacrítica o diferenciadora, ya que permite distinguir entre acepciones distintas de una misma palabra: Iglesia (‘institución’) / iglesia (‘edificio’), Ejército(‘institución’) / ejército (‘conjunto de soldados’), Gobierno (‘conjunto de los ministros de un Estado’) / gobierno (‘acción de gobernar’). La mayúscula diacrítica afecta tanto al singular como al plural: «Europa es importante para los Gobiernos, pero sobre todo para los ciudadanos» (País [Esp.] 9.1.97).
+
+
+================================================
+Participant ID:     432
+Experiment order:   321
+Time:               2015-05-23 10:36:05.567728
+Save time (unix):   1432391765.5677207
+
+# Original:
+
+En 1973 los Gobiernos de EEUU y de Reino Unido dejaron de financiar investigaciones sobre la inteligencia artificial no dirigidas.
+
+# Hints provided:
+
+
+Determinados nombres, cuando designan entidades o colectividades institucionales: la Universidad, el Estado, el Ejército, el Reino, la Marina, la Judicatura, el Gobierno. En muchos casos, esta mayúscula tiene una función diacrítica o diferenciadora, ya que permite distinguir entre acepciones distintas de una misma palabra: Iglesia (‘institución’) / iglesia (‘edificio’), Ejército(‘institución’) / ejército (‘conjunto de soldados’), Gobierno (‘conjunto de los ministros de un Estado’) / gobierno (‘acción de gobernar’). La mayúscula diacrítica afecta tanto al singular como al plural: «Europa es importante para los Gobiernos, pero sobre todo para los ciudadanos» (País [Esp.] 9.1.97).
+
+
+================================================
+Participant ID:     432
+Experiment order:   321
+Time:               2015-05-23 10:37:23.624644
+Save time (unix):   1432391843.6246307
+
+# Original:
+
+Este círculo de 
+
+# Hints provided:
+
+
+
+================================================
+Participant ID:     432
+Experiment order:   321
+Time:               2015-05-23 10:38:05.887507
+Save time (unix):   1432391885.8874936
+
+# Original:
+
+Este círculo de auges y fracasos, de 
+
+# Hints provided:
+
+
+
+================================================
+Participant ID:     432
+Experiment order:   321
+Time:               2015-05-23 10:39:50.573097
+Save time (unix):   1432391990.5730827
+
+# Original:
+
+Este círculo de auges, fracasos, de inviernos y veranos sigue persiguiendo el área de la IA.
+
+# Hints provided:
+
+
+De realizarse alguna ordenación cronológica con o sin tablas, en filmografías, listados de obras, premios o cualquier otro contenido susceptible de ser listado por fechas, se seguirá un orden creciente de fechas, es decir, se empezará por la más antigua y se terminará por la más reciente.
+
+Al incluir una determinada fecha no se debe hacer alusión a la estación del año en que sucederá el acontecimiento, puesto que puede ocasionar confusiones, tanto por la instrucción del lector, como por el cambio hemisférico del planeta. Así se escribirá: «En abril de 2005» y no «En otoño de 2005».
+
+
+================================================
+Participant ID:     432
+Experiment order:   321
+Time:               2015-05-23 10:41:22.691003
+Save time (unix):   1432392082.6909902
+
+# Original:
+
+Siete años más tarde, una iniciativa visionaria por parte del Gobierno japonés hizo que otros gobiernos e industrias financiasen la IA con 
+
+# Hints provided:
+
+
+Determinados nombres, cuando designan entidades o colectividades institucionales: la Universidad, el Estado, el Ejército, el Reino, la Marina, la Judicatura, el Gobierno. En muchos casos, esta mayúscula tiene una función diacrítica o diferenciadora, ya que permite distinguir entre acepciones distintas de una misma palabra: Iglesia (‘institución’) / iglesia (‘edificio’), Ejército(‘institución’) / ejército (‘conjunto de soldados’), Gobierno (‘conjunto de los ministros de un Estado’) / gobierno (‘acción de gobernar’). La mayúscula diacrítica afecta tanto al singular como al plural: «Europa es importante para los Gobiernos, pero sobre todo para los ciudadanos» (País [Esp.] 9.1.97).
+
+Determinados nombres, cuando designan entidades o colectividades institucionales: la Universidad, el Estado, el Ejército, el Reino, la Marina, la Judicatura, el Gobierno. En muchos casos, esta mayúscula tiene una función diacrítica o diferenciadora, ya que permite distinguir entre acepciones distintas de una misma palabra: Iglesia (‘institución’) / iglesia (‘edificio’), Ejército(‘institución’) / ejército (‘conjunto de soldados’), Gobierno (‘conjunto de los ministros de un Estado’) / gobierno (‘acción de gobernar’). La mayúscula diacrítica afecta tanto al singular como al plural: «Europa es importante para los Gobiernos, pero sobre todo para los ciudadanos» (País [Esp.] 9.1.97).
+
+
+================================================
+Participant ID:     432
+Experiment order:   321
+Time:               2015-05-23 10:43:23.292708
+Save time (unix):   1432392203.292695
+
+# Original:
+
+Siete años más tarde, una iniciativa visionaria por parte del Gobierno japonés hizo que otros gobiernos e industrias financiasen la IA con miles de millones de dólares. Sin embargo al final de la década de los ochenta los inversores acabaron desilusionándose y cortaron la financiación.
+
+# Hints provided:
+
+
+Determinados nombres, cuando designan entidades o colectividades institucionales: la Universidad, el Estado, el Ejército, el Reino, la Marina, la Judicatura, el Gobierno. En muchos casos, esta mayúscula tiene una función diacrítica o diferenciadora, ya que permite distinguir entre acepciones distintas de una misma palabra: Iglesia (‘institución’) / iglesia (‘edificio’), Ejército(‘institución’) / ejército (‘conjunto de soldados’), Gobierno (‘conjunto de los ministros de un Estado’) / gobierno (‘acción de gobernar’). La mayúscula diacrítica afecta tanto al singular como al plural: «Europa es importante para los Gobiernos, pero sobre todo para los ciudadanos» (País [Esp.] 9.1.97).
+
+Determinados nombres, cuando designan entidades o colectividades institucionales: la Universidad, el Estado, el Ejército, el Reino, la Marina, la Judicatura, el Gobierno. En muchos casos, esta mayúscula tiene una función diacrítica o diferenciadora, ya que permite distinguir entre acepciones distintas de una misma palabra: Iglesia (‘institución’) / iglesia (‘edificio’), Ejército(‘institución’) / ejército (‘conjunto de soldados’), Gobierno (‘conjunto de los ministros de un Estado’) / gobierno (‘acción de gobernar’). La mayúscula diacrítica afecta tanto al singular como al plural: «Europa es importante para los Gobiernos, pero sobre todo para los ciudadanos» (País [Esp.] 9.1.97).
+
+
+================================================
+Participant ID:     432
+Experiment order:   321
+Time:               2015-05-23 10:43:58.769165
+Save time (unix):   1432392238.7691507
+
+# Original:
+
+Siete años más tarde, una iniciativa visionaria por parte del Gobierno japonés hizo que otros gobiernos e industrias financiasen la IA con miles de millones de dólares. Sin embargo al final de la década de los ochenta los inversores acabaron desilusionándose y retiraron las financiaciones.
+
+# Hints provided:
+
+
+Determinados nombres, cuando designan entidades o colectividades institucionales: la Universidad, el Estado, el Ejército, el Reino, la Marina, la Judicatura, el Gobierno. En muchos casos, esta mayúscula tiene una función diacrítica o diferenciadora, ya que permite distinguir entre acepciones distintas de una misma palabra: Iglesia (‘institución’) / iglesia (‘edificio’), Ejército(‘institución’) / ejército (‘conjunto de soldados’), Gobierno (‘conjunto de los ministros de un Estado’) / gobierno (‘acción de gobernar’). La mayúscula diacrítica afecta tanto al singular como al plural: «Europa es importante para los Gobiernos, pero sobre todo para los ciudadanos» (País [Esp.] 9.1.97).
+
+Determinados nombres, cuando designan entidades o colectividades institucionales: la Universidad, el Estado, el Ejército, el Reino, la Marina, la Judicatura, el Gobierno. En muchos casos, esta mayúscula tiene una función diacrítica o diferenciadora, ya que permite distinguir entre acepciones distintas de una misma palabra: Iglesia (‘institución’) / iglesia (‘edificio’), Ejército(‘institución’) / ejército (‘conjunto de soldados’), Gobierno (‘conjunto de los ministros de un Estado’) / gobierno (‘acción de gobernar’). La mayúscula diacrítica afecta tanto al singular como al plural: «Europa es importante para los Gobiernos, pero sobre todo para los ciudadanos» (País [Esp.] 9.1.97).
+
+
+================================================

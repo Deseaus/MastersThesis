@@ -1,0 +1,28 @@
+Participant ID:     425
+Experiment order:   312
+Setup:              PE
+Start:              2015-05-24 21:28:27
+End:                2015-05-24 22:01:39.662196
+Total time (s):     1993.0
+Start time (unix):  1432517307.0
+End time (unix):    1432519299.6622117
+
+Translation:
+
+
+
+El campo de la investigación de IA se fundó en una conferencia en el campus de la universidad de Dartmouth en el verano de 1956.
+
+
+
+En 1973 los EE. UU. y el Gobierno británico dejaron de financiar investigaciones sobre inteligencia artificial no dirigidas.
+
+
+
+Siete años más tarde, una iniciativa visionaria del Gobierno japonés inspiró a otro gobiernos y a la industria a invertir miles de millones de dólares en IA. Sin embargo, a finales de los años 80 los inversores se desilusionaron y retiraron de nuevo la financiación.
+
+
+
+Este ciclo de prosperidad y depresión, de <i>AI winters</i> (inviernos de IA) y sus respectivos veranos, sigue acechando al campo.
+
+

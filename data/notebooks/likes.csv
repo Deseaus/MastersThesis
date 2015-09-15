@@ -1,0 +1,25 @@
+Aspect;Setup;Counts;like
+Topic;scratch;6;like
+Freedom;scratch;1;like
+Easy;scratch;4;like
+Topic;pe;2;like
+Easy;pe;1;like
+Superiority;pe;2;like
+Textual aspects;pe;1;like
+MT suggestion;pe;4;like
+Topic;style;5;like
+Difficulty;style;1;like
+Easy;style;1;like
+Textual aspects;style;1;like
+Topic;scratch;2;dislike
+Textual aspects;scratch;2;dislike
+Lack of freedom;scratch;1;dislike
+Experiment;scratch;2;dislike
+Style guide use;scratch;1;dislike
+MT suggestion;pe;4;dislike
+Topic;pe;3;dislike
+Textual aspects;pe;1;dislike
+Topic;style;2;dislike
+Textual aspects;style;1;dislike
+Suggestions always on;style;1;dislike
+Lack of freedom;style;2;dislike

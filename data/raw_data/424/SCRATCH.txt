@@ -1,0 +1,20 @@
+Participant ID:     424
+Experiment order:   231
+Setup:              SCRATCH
+Start:              2015-05-25 10:18:59
+End:                2015-05-25 10:41:11.746080
+Total time (s):     1333.0
+Start time (unix):  1432563539.0
+End time (unix):    1432564871.7460938
+
+Translation:
+
+
+
+Charlotte Gyllenhammar, nacida en 1963, es una artista situada en Estocolmo, Suecia.
+
+Empezó su carrera como pintora, pero pasó a la escultura e instalación después de acabar sus estudios en la Universidad Real de Arte de Londres.
+
+La obra titulada <i>Die for You</i> (Morir para ti) fue el primer paso en una progresión de imágenes y ambientes que invierten la perspectiva.
+
+Por ejemplo, el confinamiento y la inversión son evidentes en su vídeo y series fotográficas de mujeres suspendidas <i>Belle</i> (1998), <i>Fall</i> (1999), <i>Disobedience</i> (1998) y la más reciente <i>Hang</i> (2006).

@@ -1,0 +1,63 @@
+{% extends "layout.html" %}
+
+{% block title %}Welcome{% endblock %}
+
+{% block meta %}
+<meta name="description" content="Translation Tools Experiment">
+<meta name="author" content="Daniel Vidal Hussey">
+{% endblock %}
+
+{% block content %}
+<h1 id="main" class="text-center">Welcome to the Translation Tools Experiment</h1>
+
+<div class="row">
+    <div class="col-md-6 col-md-offset-3">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title text-center">Introduction</h3>
+            </div>
+            <div class="panel-body">
+                <p> 
+                    Welcome to the Translation Tools Experiment! Thank you for volunteering to participate.
+                </p>
+                <p>
+                    In this experiment, you will be asked to translate three small general-domain texts (between 80-100 words each) from English into Spanish and complete two questionnaires.
+                </p>
+                <p>
+                    We estimate the total experiment time to be between 40-50 minutes depending on translation speed. It is not possible to stop the experiment and continue later, please only start when you have enough free time to complete the whole experiment.
+                </p>
+                <p>
+                    Below we provide a summary of the experiment steps. To start, please click "Start".
+                </p>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title text-center">Prodecure</h3>
+            </div>
+            <div class="panel-body">
+                <ol>
+                    <li>Initial questionnaire</li>
+                    <li>Description of translation brief</li>
+                    <li>Text 1 translation (EN -> ES)</li>
+                    <li>Text 2 translation (EN -> ES)</li>
+                    <li>Text 3 translation (EN -> ES)</li>
+                    <li>Final questionnaire</li>
+                </ol>
+            </div>
+        </div>
+        <div class="panel panel-danger">
+            <div class="panel-heading">
+                <h3 class="panel-title text-center">Notice</h3>
+            </div>
+            <div class="panel-body">
+                <p> 
+                It is not possible to close the survey and finish it later. Please only start the experiment when you have time to complete it.
+                </p>
+                <a href="/pre-survey/{{ experiment.participant_id }}/{{ experiment.order }}" class="btn btn-primary" role="button">
+                    <span class="glyphicon glyphicon-circle-arrow-right"></span>
+                    Start
+                </a>
+            </div>
+        </div>
+{% endblock %}

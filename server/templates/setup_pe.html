@@ -1,0 +1,126 @@
+{% extends "layout.html" %}
+
+{% block title %}Experiment 2{% endblock %}
+
+{% block meta %}
+<meta name="description" content="">
+<meta name="author" content="">
+{% endblock %}
+
+{% block content %}
+<h1 id="main" class="text-center">Translation Experiment 2: {{ experiment.title }}</h1>
+
+<div class="row">
+    <div class="col-md-6 col-md-offset-3">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title text-center">Instructions</h3>
+            </div>
+            <div class="panel-body">
+                <ul> 
+                    <li> Please translate the text provided on the left into the corresponding boxes on the right.</li>
+                    <li> In the boxes on the right you will find a machine translated version of the text on the left as a suggestion.</li>
+                    <li>If you need to <strong>bold</strong> or <em>italisize</em> any parts of the text, please wrap them in &lt;b&gt; &lt;/b&gt; or &lt;i&gt; &lt;/i&gt; tags.</li>
+                    <li>When you have finished, please click "Next".</li>
+                </ul>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title text-center">Translation brief</h3>
+            </div>
+            <div class="panel-body">
+                <p> 
+                Wikipedia set up a crowdfunding campaign in an effort to pay for some professional translations of articles very popular in different regions of the world. After a huge success, they invited applications from translators. You applied and have now been selected to translate three articles. Wikipedia has reminded you of the global nature and scale of the project and has provided <a href="http://es.wikipedia.org/wiki/Wikipedia:Manual_de_estilo" target="_blank" id="wikistyle">a link to its style guide</a> in order to help you translate.
+                </p>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<h2 id="main" class="text-center">{{ experiment.title }}</h2>
+
+{% for source, pe in experiment.aligned %}
+<div class="row">
+    <div class="col-md-5 col-md-offset-1">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                {{ source }}
+            </div>
+        </div>
+    </div>
+    <div class="col-md-5 ">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <div class="form-group">
+                    <textarea class="form-control translation-container" rows="8" id="sentence{{ loop.index }}">{{ pe }}</textarea>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endfor %}
+
+<div class="row">
+    <div class="col-md-9 col-md-offset-5">
+        <a href="javascript:saveTranslation()" class="btn btn-primary" role="button">
+            <span class="glyphicon glyphicon-circle-arrow-right"></span>
+            Next
+        </a>
+    </div>
+</div>
+
+
+{% endblock %}
+
+
+{% block scripts %}
+<script>
+$(document).ready(function(){
+
+    // Wiki link click logger
+    $("#wikistyle").click(function() {
+        var data = {
+            participant_id: "{{ experiment.participant_id }}",
+            order: "{{ experiment.order }}",
+            setup: "{{ experiment.setup }}",
+        };
+        $.post("/style-click", data);
+    });
+
+    // Keylogger for textareas
+    $("textarea").keypress(function(e) {
+        var data = {
+            participant_id: "{{ experiment.participant_id }}",
+            order: "{{ experiment.order }}",
+            setup: "{{ experiment.setup }}",
+            sent_id: $(this).attr('id'),
+            key: String.fromCharCode(e.which),
+        };
+        $.post("/key", data);
+    });
+});
+</script>
+<script>
+function saveTranslation() {
+    var translations = "" ;
+    $("textarea").each(function(){
+        var sent = $(this).val() ;
+        translations = translations + "\n" + sent ;
+    });
+    var data = {
+        translation: translations,
+        participant_id: "{{ experiment.participant_id }}",
+        initial_time: "{{ experiment.start }}",
+        order: "{{ experiment.order }}",
+        setup: "{{ experiment.setup }}",
+    };
+    $.post("/save-experiment", data)
+    .done( function redirectSetup() {
+        var url = "/setup-three/{{ experiment.participant_id }}/{{ experiment.order }}" ;
+        $(location).attr('href',url);
+    });
+}
+</script>
+{% endblock %}

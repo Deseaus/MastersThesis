@@ -1,0 +1,20 @@
+Participant ID:     428
+Experiment order:   132
+Setup:              SCRATCH
+Start:              2015-05-23 11:41:45
+End:                2015-05-23 11:52:09.911606
+Total time (s):     625.0
+Start time (unix):  1432395705.0
+End time (unix):    1432396329.9116192
+
+Translation:
+
+
+
+El campo de investigación de la IAl se creó en una conferencia en el campus del Darmouth College en el verano de 1956.
+
+En 1973, los gobiernos de Estados Unidos y Gran Bretaña dejaron de destinar fondos a investigaciones indirectamente centradas en inteligencia artificial.
+
+Siete años más tarde, una iniciativa visionaria del gobierno japonés inspiró a gobiernos e industrias a destinar miles de millones de dólares a investigaciones sobre IA, pero a finales de los 80 los inversores se desilusionaron y retiraron los fondos de nuevo.
+
+Este ciclo de altibajos, de inviernos y veranos para la IA, continúa persiguiendo al campo.

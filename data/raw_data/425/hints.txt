@@ -1,0 +1,390 @@
+Participant ID:     425
+Experiment order:   312
+Time:               2015-05-24 22:03:16.893021
+Save time (unix):   1432519396.8930058
+
+# Original:
+
+Charlotte Gyllenhammar, nacida en 1963, es una artista con bae en Estocolmo, Suecia.
+
+# Hints provided:
+
+
+De realizarse alguna ordenación cronológica con o sin tablas, en filmografías, listados de obras, premios o cualquier otro contenido susceptible de ser listado por fechas, se seguirá un orden creciente de fechas, es decir, se empezará por la más antigua y se terminará por la más reciente.
+
+
+================================================
+Participant ID:     425
+Experiment order:   312
+Time:               2015-05-24 22:05:20.531268
+Save time (unix):   1432519520.5312514
+
+# Original:
+
+Charlotte Gyllenhammar, nacida en 1963, es una artista con base en Estocolmo, Suecia.
+
+# Hints provided:
+
+
+De realizarse alguna ordenación cronológica con o sin tablas, en filmografías, listados de obras, premios o cualquier otro contenido susceptible de ser listado por fechas, se seguirá un orden creciente de fechas, es decir, se empezará por la más antigua y se terminará por la más reciente.
+
+
+================================================
+Participant ID:     425
+Experiment order:   312
+Time:               2015-05-24 22:08:54.623260
+Save time (unix):   1432519734.6232512
+
+# Original:
+
+Charlotte Gyllenhammar, nacida en 1963, es una artista con base en Estocolmo, Suecia.
+
+# Hints provided:
+
+
+De realizarse alguna ordenación cronológica con o sin tablas, en filmografías, listados de obras, premios o cualquier otro contenido susceptible de ser listado por fechas, se seguirá un orden creciente de fechas, es decir, se empezará por la más antigua y se terminará por la más reciente.
+
+
+================================================
+Participant ID:     425
+Experiment order:   312
+Time:               2015-05-24 22:09:23.289094
+Save time (unix):   1432519763.2890809
+
+# Original:
+
+Charlotte Gyllenhammar, nacida en 1963, es una artista con base en Estocolmo, Suecia.
+
+# Hints provided:
+
+
+De realizarse alguna ordenación cronológica con o sin tablas, en filmografías, listados de obras, premios o cualquier otro contenido susceptible de ser listado por fechas, se seguirá un orden creciente de fechas, es decir, se empezará por la más antigua y se terminará por la más reciente.
+
+
+================================================
+Participant ID:     425
+Experiment order:   312
+Time:               2015-05-24 22:09:55.157429
+Save time (unix):   1432519795.157413
+
+# Original:
+
+Empezó su carrera como pintora, pero 
+
+# Hints provided:
+
+
+
+================================================
+Participant ID:     425
+Experiment order:   312
+Time:               2015-05-24 22:10:29.409372
+Save time (unix):   1432519829.4093595
+
+# Original:
+
+Empezó su carrera como pintora, pero rápidamente se pasó a la escultura y a la instalac
+
+# Hints provided:
+
+
+
+================================================
+Participant ID:     425
+Experiment order:   312
+Time:               2015-05-24 22:12:47.289495
+Save time (unix):   1432519967.28948
+
+# Original:
+
+Empezó su carrera como pintora, pero rápidamente se pasó a la escultura y a la instalación artística después de haber acabado sus estudios en el 
+
+# Hints provided:
+
+
+
+================================================
+Participant ID:     425
+Experiment order:   312
+Time:               2015-05-24 22:14:57.740161
+Save time (unix):   1432520097.7401495
+
+# Original:
+
+Empezó su carrera como pintora, pero rápidamente se pasó a la escultura y a la instalación artística después de haber acabado sus estudios en el Royal College of Art de Londres.
+
+# Hints provided:
+
+
+
+================================================
+Participant ID:     425
+Experiment order:   312
+Time:               2015-05-24 22:15:56.341647
+Save time (unix):   1432520156.3416348
+
+# Original:
+
+Su trabajo llamado <i>Die for You</i> fue su primer paso en un progreso de 
+
+# Hints provided:
+
+
+
+================================================
+Participant ID:     425
+Experiment order:   312
+Time:               2015-05-24 22:17:40.326567
+Save time (unix):   1432520260.3265529
+
+# Original:
+
+Su trabajo llamado <i>Die for You</i> fue el primer paso en una secuencia de imágenes y entornos que invierten la perspectiva. 
+
+# Hints provided:
+
+
+
+================================================
+Participant ID:     425
+Experiment order:   312
+Time:               2015-05-24 22:19:04.863476
+Save time (unix):   1432520344.8634622
+
+# Original:
+
+Su trabajo llamado <i>Die for You</i> ("Morir por ti") fue el primer paso en una secuencia de imágenes y entornos que invierten la perspectiva. 
+
+# Hints provided:
+
+
+Los paréntesis son utilizados, principalmente, en matemáticas. Tienen también utilidad a la hora de redactar, pero debería limitarse su uso. Hay gran cantidad de artículos que, al insertar incisos, comentarios y aclaraciones entre paréntesis, no hacen más que dificultar la lectura. En muchos casos, tales incisos pueden ir entre comas; en otros, simplemente no son necesarios. En su lugar, si son imprescindibles, pueden utilizarse o bien enlaces internos que remitan al lector a otro artículo donde pueda obtener más información, o bien notas a pie de página. Otra opción, en algunos casos más correcta que la utilización de paréntesis, es el uso de guiones largos ( — ).
+
+Las comillas son un signo ortográfico doble del cual se usan diferentes tipos en español: 1. las comillas angulares, también llamadas latinas o españolas (« »), 2. las inglesas (“ ”) y 3. las simples (‘ ’). En los textos impresos e informáticos, en oposición a los manuscritos, el DPD recomienda utilizar en primera instancia las comillas angulares, reservando los otros tipos para cuando deban añadirse comillas a partes de un texto ya previamente entrecomillado. En este caso, las simples se emplean en último lugar: «Antonio me dijo: “Vaya ‘cacharro’ que se ha comprado Julián”».
+
+
+================================================
+Participant ID:     425
+Experiment order:   312
+Time:               2015-05-24 22:22:33.893911
+Save time (unix):   1432520553.893895
+
+# Original:
+
+Su trabajo llamado <i>Die for You</i> "Morir por ti" fue el primer paso en una secuencia de imágenes y entornos que invierten la perspectiva. 
+
+# Hints provided:
+
+
+Las comillas son un signo ortográfico doble del cual se usan diferentes tipos en español: 1. las comillas angulares, también llamadas latinas o españolas (« »), 2. las inglesas (“ ”) y 3. las simples (‘ ’). En los textos impresos e informáticos, en oposición a los manuscritos, el DPD recomienda utilizar en primera instancia las comillas angulares, reservando los otros tipos para cuando deban añadirse comillas a partes de un texto ya previamente entrecomillado. En este caso, las simples se emplean en último lugar: «Antonio me dijo: “Vaya ‘cacharro’ que se ha comprado Julián”».
+
+
+================================================
+Participant ID:     425
+Experiment order:   312
+Time:               2015-05-24 22:24:31.705403
+Save time (unix):   1432520671.705388
+
+# Original:
+
+Su trabajo llamado <i>Die for You</i> fue el primer paso en una secuencia de imágenes y entornos que invierten la perspectiva. 
+
+# Hints provided:
+
+
+
+================================================
+Participant ID:     425
+Experiment order:   312
+Time:               2015-05-24 22:24:42.872986
+Save time (unix):   1432520682.8729758
+
+# Original:
+
+Por ejemplo, 
+
+# Hints provided:
+
+
+
+================================================
+Participant ID:     425
+Experiment order:   312
+Time:               2015-05-24 22:24:54.793145
+Save time (unix):   1432520694.7931316
+
+# Original:
+
+Por ejemplo, 
+
+# Hints provided:
+
+
+
+================================================
+Participant ID:     425
+Experiment order:   312
+Time:               2015-05-24 22:25:16.859183
+Save time (unix):   1432520716.8591692
+
+# Original:
+
+Por ejemplo, 
+
+# Hints provided:
+
+
+
+================================================
+Participant ID:     425
+Experiment order:   312
+Time:               2015-05-24 22:26:08.225296
+Save time (unix):   1432520768.2252831
+
+# Original:
+
+Por ejemplo, el confinamiento y la inversión son evidentes en su vídeo/series
+
+# Hints provided:
+
+
+La barra (/): colocada entre dos palabras, o entre una palabra y un morfema, indica la existencia de dos o más opciones posibles. En este caso tampoco se escribe entre espacios y puede sustituirse por paréntesis: El/los día/s pasado/s; Querido/a amigo/a.
+
+
+================================================
+Participant ID:     425
+Experiment order:   312
+Time:               2015-05-24 22:27:19.376232
+Save time (unix):   1432520839.3762212
+
+# Original:
+
+Por ejemplo, el confinamiento y la inversión son evidentes en sus series vídeo-fotográficas 
+
+# Hints provided:
+
+
+
+================================================
+Participant ID:     425
+Experiment order:   312
+Time:               2015-05-24 22:27:19.496901
+Save time (unix):   1432520839.4968867
+
+# Original:
+
+Por ejemplo, el confinamiento y la inversión son evidentes en sus series vídeo-fotográficas 
+
+# Hints provided:
+
+
+
+================================================
+Participant ID:     425
+Experiment order:   312
+Time:               2015-05-24 22:27:29.479057
+Save time (unix):   1432520849.4790409
+
+# Original:
+
+Por ejemplo, el confinamiento y la inversión son evidentes en sus series vídeo-fotográficas 
+
+# Hints provided:
+
+
+
+================================================
+Participant ID:     425
+Experiment order:   312
+Time:               2015-05-24 22:30:16.537756
+Save time (unix):   1432521016.537744
+
+# Original:
+
+Por ejemplo, el confinamiento y la inversión son evidentes en su serie vídeo-fotográfica de mujeres suspendidas llamada <i>Belle</i> (1998), así como en Fall (1999)
+
+# Hints provided:
+
+
+De realizarse alguna ordenación cronológica con o sin tablas, en filmografías, listados de obras, premios o cualquier otro contenido susceptible de ser listado por fechas, se seguirá un orden creciente de fechas, es decir, se empezará por la más antigua y se terminará por la más reciente.
+
+Los paréntesis son utilizados, principalmente, en matemáticas. Tienen también utilidad a la hora de redactar, pero debería limitarse su uso. Hay gran cantidad de artículos que, al insertar incisos, comentarios y aclaraciones entre paréntesis, no hacen más que dificultar la lectura. En muchos casos, tales incisos pueden ir entre comas; en otros, simplemente no son necesarios. En su lugar, si son imprescindibles, pueden utilizarse o bien enlaces internos que remitan al lector a otro artículo donde pueda obtener más información, o bien notas a pie de página. Otra opción, en algunos casos más correcta que la utilización de paréntesis, es el uso de guiones largos ( — ).
+
+Los paréntesis son utilizados, principalmente, en matemáticas. Tienen también utilidad a la hora de redactar, pero debería limitarse su uso. Hay gran cantidad de artículos que, al insertar incisos, comentarios y aclaraciones entre paréntesis, no hacen más que dificultar la lectura. En muchos casos, tales incisos pueden ir entre comas; en otros, simplemente no son necesarios. En su lugar, si son imprescindibles, pueden utilizarse o bien enlaces internos que remitan al lector a otro artículo donde pueda obtener más información, o bien notas a pie de página. Otra opción, en algunos casos más correcta que la utilización de paréntesis, es el uso de guiones largos ( — ).
+
+
+================================================
+Participant ID:     425
+Experiment order:   312
+Time:               2015-05-24 22:31:48.444898
+Save time (unix):   1432521108.444883
+
+# Original:
+
+Por ejemplo, el confinamiento y la inversión son evidentes en su serie vídeo-fotográfica de mujeres suspendidas llamada <i>Belle</i> (1998), así como en <i>Disobedience</i> (1998), <i>Fall</i> (1999) y más recientemente en <i>Hang</i> (2006).
+
+# Hints provided:
+
+
+De realizarse alguna ordenación cronológica con o sin tablas, en filmografías, listados de obras, premios o cualquier otro contenido susceptible de ser listado por fechas, se seguirá un orden creciente de fechas, es decir, se empezará por la más antigua y se terminará por la más reciente.
+
+Los paréntesis son utilizados, principalmente, en matemáticas. Tienen también utilidad a la hora de redactar, pero debería limitarse su uso. Hay gran cantidad de artículos que, al insertar incisos, comentarios y aclaraciones entre paréntesis, no hacen más que dificultar la lectura. En muchos casos, tales incisos pueden ir entre comas; en otros, simplemente no son necesarios. En su lugar, si son imprescindibles, pueden utilizarse o bien enlaces internos que remitan al lector a otro artículo donde pueda obtener más información, o bien notas a pie de página. Otra opción, en algunos casos más correcta que la utilización de paréntesis, es el uso de guiones largos ( — ).
+
+Los paréntesis son utilizados, principalmente, en matemáticas. Tienen también utilidad a la hora de redactar, pero debería limitarse su uso. Hay gran cantidad de artículos que, al insertar incisos, comentarios y aclaraciones entre paréntesis, no hacen más que dificultar la lectura. En muchos casos, tales incisos pueden ir entre comas; en otros, simplemente no son necesarios. En su lugar, si son imprescindibles, pueden utilizarse o bien enlaces internos que remitan al lector a otro artículo donde pueda obtener más información, o bien notas a pie de página. Otra opción, en algunos casos más correcta que la utilización de paréntesis, es el uso de guiones largos ( — ).
+
+Los paréntesis son utilizados, principalmente, en matemáticas. Tienen también utilidad a la hora de redactar, pero debería limitarse su uso. Hay gran cantidad de artículos que, al insertar incisos, comentarios y aclaraciones entre paréntesis, no hacen más que dificultar la lectura. En muchos casos, tales incisos pueden ir entre comas; en otros, simplemente no son necesarios. En su lugar, si son imprescindibles, pueden utilizarse o bien enlaces internos que remitan al lector a otro artículo donde pueda obtener más información, o bien notas a pie de página. Otra opción, en algunos casos más correcta que la utilización de paréntesis, es el uso de guiones largos ( — ).
+
+Debe evitarse el uso de expresiones relativas al momento presente («hoy», «ahora», «actualmente»...) o que tomen al presente como referencia («en los últimos tiempos», «recientemente», «este año», «el año pasado», «hace unos meses»...), ya que cuando el lector futuro las lea e interprete en función de su propio presente, perderán su sentido. En su lugar debe indicarse una fecha concreta.
+
+Los paréntesis son utilizados, principalmente, en matemáticas. Tienen también utilidad a la hora de redactar, pero debería limitarse su uso. Hay gran cantidad de artículos que, al insertar incisos, comentarios y aclaraciones entre paréntesis, no hacen más que dificultar la lectura. En muchos casos, tales incisos pueden ir entre comas; en otros, simplemente no son necesarios. En su lugar, si son imprescindibles, pueden utilizarse o bien enlaces internos que remitan al lector a otro artículo donde pueda obtener más información, o bien notas a pie de página. Otra opción, en algunos casos más correcta que la utilización de paréntesis, es el uso de guiones largos ( — ).
+
+
+================================================
+Participant ID:     425
+Experiment order:   312
+Time:               2015-05-24 22:33:13.358746
+Save time (unix):   1432521193.3587308
+
+# Original:
+
+Por ejemplo, el confinamiento y la inversión son evidentes en su serie vídeo-fotográfica de mujeres suspendidas llamada <i>Belle</i>, 1998, así como en <i>Disobedience</i>, 1998, <i>Fall</i>, 1999, y más recientemente en <i>Hang</i>, 2006.
+
+# Hints provided:
+
+
+De realizarse alguna ordenación cronológica con o sin tablas, en filmografías, listados de obras, premios o cualquier otro contenido susceptible de ser listado por fechas, se seguirá un orden creciente de fechas, es decir, se empezará por la más antigua y se terminará por la más reciente.
+
+De realizarse alguna ordenación cronológica con o sin tablas, en filmografías, listados de obras, premios o cualquier otro contenido susceptible de ser listado por fechas, se seguirá un orden creciente de fechas, es decir, se empezará por la más antigua y se terminará por la más reciente.
+
+De realizarse alguna ordenación cronológica con o sin tablas, en filmografías, listados de obras, premios o cualquier otro contenido susceptible de ser listado por fechas, se seguirá un orden creciente de fechas, es decir, se empezará por la más antigua y se terminará por la más reciente.
+
+De realizarse alguna ordenación cronológica con o sin tablas, en filmografías, listados de obras, premios o cualquier otro contenido susceptible de ser listado por fechas, se seguirá un orden creciente de fechas, es decir, se empezará por la más antigua y se terminará por la más reciente.
+
+Debe evitarse el uso de expresiones relativas al momento presente («hoy», «ahora», «actualmente»...) o que tomen al presente como referencia («en los últimos tiempos», «recientemente», «este año», «el año pasado», «hace unos meses»...), ya que cuando el lector futuro las lea e interprete en función de su propio presente, perderán su sentido. En su lugar debe indicarse una fecha concreta.
+
+
+================================================
+Participant ID:     425
+Experiment order:   312
+Time:               2015-05-24 22:33:30.445343
+Save time (unix):   1432521210.4453323
+
+# Original:
+
+Por ejemplo, el confinamiento y la inversión son evidentes en su serie vídeo-fotográfica de mujeres suspendidas llamada <i>Belle</i>, 1998, así como en <i>Disobedience</i>, 1998, <i>Fall</i>, 1999, y más recientemente en <i>Hang</i>, 2006.
+
+# Hints provided:
+
+
+De realizarse alguna ordenación cronológica con o sin tablas, en filmografías, listados de obras, premios o cualquier otro contenido susceptible de ser listado por fechas, se seguirá un orden creciente de fechas, es decir, se empezará por la más antigua y se terminará por la más reciente.
+
+De realizarse alguna ordenación cronológica con o sin tablas, en filmografías, listados de obras, premios o cualquier otro contenido susceptible de ser listado por fechas, se seguirá un orden creciente de fechas, es decir, se empezará por la más antigua y se terminará por la más reciente.
+
+De realizarse alguna ordenación cronológica con o sin tablas, en filmografías, listados de obras, premios o cualquier otro contenido susceptible de ser listado por fechas, se seguirá un orden creciente de fechas, es decir, se empezará por la más antigua y se terminará por la más reciente.
+
+De realizarse alguna ordenación cronológica con o sin tablas, en filmografías, listados de obras, premios o cualquier otro contenido susceptible de ser listado por fechas, se seguirá un orden creciente de fechas, es decir, se empezará por la más antigua y se terminará por la más reciente.
+
+Debe evitarse el uso de expresiones relativas al momento presente («hoy», «ahora», «actualmente»...) o que tomen al presente como referencia («en los últimos tiempos», «recientemente», «este año», «el año pasado», «hace unos meses»...), ya que cuando el lector futuro las lea e interprete en función de su propio presente, perderán su sentido. En su lugar debe indicarse una fecha concreta.
+
+
+================================================

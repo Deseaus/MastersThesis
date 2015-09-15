@@ -1,0 +1,8 @@
+Participant ID:     432
+Experiment order:   321
+Setup:              BRIEF
+Time:               2015-05-23 09:41:45.793037
+Click time (unix):  1432388505.7930064
+
+# CLICK BRIEF 1432388505.7930064
+

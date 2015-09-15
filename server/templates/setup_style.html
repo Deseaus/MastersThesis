@@ -1,0 +1,159 @@
+{% extends "layout.html" %}
+
+{% block title %}Experiment 3{% endblock %}
+
+{% block meta %}
+<meta name="description" content="Translation Experiment">
+<meta name="author" content="Daniel Vidal Hussey">
+{% endblock %}
+
+{% block content %}
+<h1 id="main" class="text-center">Translation Experiment 3: {{ experiment.title }}</h1>
+
+<div class="row">
+    <div class="col-md-6 col-md-offset-3">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title text-center">Instructions</h3>
+            </div>
+            <div class="panel-body">
+                <ul> 
+                    <li> Please translate the text provided on the left into the corresponding boxes on the right.</li>
+                    <li>When you click away from one of the input boxes, you may see some style suggestions appear. You can return to the previous input box and edit it if you think it is necessary.</li>
+                    
+                    <li>If you need to <strong>bold</strong> or <em>italisize</em> any parts of the text, please wrap them in &lt;b&gt; &lt;/b&gt; or &lt;i&gt; &lt;/i&gt; tags.</li>
+                    <li>When you have finished, please click "Next".</li>
+                </ul>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title text-center">Translation brief</h3>
+            </div>
+            <div class="panel-body">
+                <p> 
+                Wikipedia set up a crowdfunding campaign in an effort to pay for some professional translations of articles very popular in different regions of the world. After a huge success, they invited applications from translators. You applied and have now been selected to translate three articles from English into Spanish. Wikipedia has reminded you of the global nature and scale of the project and has provided <a href="http://es.wikipedia.org/wiki/Wikipedia:Manual_de_estilo" target="_blank" id="wikistyle">a link to its style guide</a> in order to help you translate.
+                </p>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<h2 id="main" class="text-center">{{ experiment.title }}</h2>
+
+{% for sentence in experiment.source %}
+<div class="row">
+    <div class="col-md-5 col-md-offset-1">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                {{ sentence }}
+            </div>
+        </div>
+    </div>
+    <div class="col-md-5 translation">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <textarea class="form-control translation-container" rows="8" id="sentence{{ loop.index }}"></textarea>
+            </div>
+        </div>
+        <div class="hint-container">
+        </div>
+    </div>
+</div>
+{% endfor %}
+
+<div class="row">
+    <div class="col-md-9 col-md-offset-5">
+        <a href="javascript:saveTranslation()" class="btn btn-primary" role="button">
+            <span class="glyphicon glyphicon-circle-arrow-right"></span>
+            Next
+        </a>
+    </div>
+</div>
+
+{% endblock %}
+
+
+{% block scripts %}
+
+<script id="hint-template" type="x-tmpl-mustache">
+{% raw %}
+{{#hints}}
+<div class="alert alert-danger alert-dismissable">
+    {{.}}
+    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+</div>
+{{/hints}}
+{% endraw %}
+</script>
+
+<script>
+$(document).ready(function(){
+
+    // Wiki link click logger
+    $("#wikistyle").click(function() {
+        var data = {
+            participant_id: "{{ experiment.participant_id }}",
+            order: "{{ experiment.order }}",
+            setup: "{{ experiment.setup }}",
+        };
+        $.post("/style-click", data);
+    });
+
+    // Key logger for textareas
+    $("textarea").keypress(function(e) {
+        var data = {
+            participant_id: "{{ experiment.participant_id }}",
+            order: "{{ experiment.order }}",
+            setup: "{{ experiment.setup }}",
+            sent_id: $(this).attr('id'),
+            key: String.fromCharCode(e.which),
+        };
+        $.post("/key", data);
+    });
+
+    // Style Checker
+    $(".translation").focusout(function() {
+        var that = $(this) // Save for use in .done
+        var data = {
+            sentence: $(this).find("textarea").val(),
+            participant_id: "{{ experiment.participant_id }}",
+            order: "{{ experiment.order }}",
+        };
+        $.post("/check-style", data)
+        .done( function(response) {
+            var template = $("#hint-template").html();
+            Mustache.parse(template);
+            var data = { "hints": response.hints, };
+            var rendered = Mustache.render(template,data);
+
+            that.find(".alert").remove();
+            that.find(".hint-container").append(rendered);
+        });
+    });
+});
+</script>
+
+<script>
+function saveTranslation() {
+    var translations = "" ;
+    $("textarea").each(function(){
+        var sent = $(this).val() ;
+        translations = translations + "\n" + sent ;
+    });
+    var data = {
+        translation: translations,
+        participant_id: "{{ experiment.participant_id }}",
+        initial_time: "{{ experiment.start }}",
+        order: "{{ experiment.order }}",
+        setup: "{{ experiment.setup }}",
+    };
+    $.post("/save-experiment", data)
+    .done( function redirectSetup() {
+        var url = "/post-survey/{{ experiment.participant_id }}/{{ experiment.order }}" ;
+        $(location).attr('href',url);
+    });
+}
+</script>
+{% endblock %}

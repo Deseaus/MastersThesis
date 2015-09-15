@@ -1,0 +1,17 @@
+Participant ID:     {{ participant_id }}
+Experiment order:   {{ order }}
+Time:               {{ now }}
+Save time (unix):   {{ nowunix }}
+
+# Original:
+
+{{ original }}
+
+# Hints provided:
+
+{% for h in hints %}
+{{ h }}
+{% endfor %}
+
+================================================
+

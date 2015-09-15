@@ -1,0 +1,98 @@
+{% extends "layout.html" %}
+
+{% block title %}Final Questionnaire{% endblock %}
+
+{% block meta %}
+<meta name="description" content="">
+<meta name="author" content="Daniel Vidal Hussey">
+{% endblock %}
+
+{% block content %}
+<h1 id="main" class="text-center">Final Questionnaire</h1>
+
+<div class="row">
+    <div class="col-md-6 col-md-offset-3">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title text-center">Instructions</h3>
+            </div>
+            <div class="panel-body">
+                <ul>
+                    <li>
+                    In order to link your translations to the questionnaire, please enter your Participant ID into the first field in the questionnaire below marked "Participant ID".
+                    </li>
+                    <li>
+                    Participant ID: <mark>{{ experiment.participant_id }}</mark>
+                    </li>
+                    <li>
+                    For the questions where you have to write text, you can answer in either <strong>English</strong> or in <strong>Spanish</strong>.
+                    </li>
+                    <li>
+                    Below you are provided with a reminder of the original texts.
+                    </li>
+                    <li>
+                    The questionnaire is divided into pages. Once you have filled in a page, continue to the next one. The final page of the questionnaire contains a "Submit" button (due to using Google forms, the "Submit" and "Continue" text may actually be shown in your browser's language). After submitting, please click the blue "Next" button at the very end of the page.
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-4">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title text-center">Text 1 Reminder: {{ setup_one.title }}</h3>
+            </div>
+            <div class="panel-body">
+                <p>{{ setup_one.source|join(' ') }}</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title text-center">Text 2 Reminder: {{ setup_two.title }}</h3>
+            </div>
+            <div class="panel-body">
+                <h4>Original</h4>
+                <p>{{ setup_two.source|join(' ') }}</p>
+                <h4>Machine translation</h4>
+                <p>{{ setup_two.mt|join(' ') }}</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title text-center">Text 3 Reminder: {{ setup_three.title }}</h3>
+            </div>
+            <div class="panel-body">
+                <p>{{ setup_three.source|join(' ') }}</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-9 col-md-offset-2">
+        <iframe src="https://docs.google.com/forms/d/1V9AiZ4wwQC6G1mUmaUrB-dJ2rLnTjG14u2GiDhySW90/viewform?embedded=true" width="760" height="2000" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-6 col-md-offset-3">
+        <div class="panel panel-danger">
+            <div class="panel-heading">
+                <h3 class="panel-title text-center">Notice</h3>
+            </div>
+            <div class="panel-body">
+                <p>Please only click "Next" once you have reached the LAST page in the above questionnaire and submitted the questionnaire. You may have to scroll the questionnaire to see more content.</p>
+                <a href="/final" class="btn btn-primary" role="button">
+                    <span class="glyphicon glyphicon-circle-arrow-right"></span>
+                    Next
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

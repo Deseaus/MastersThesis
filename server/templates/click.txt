@@ -1,0 +1,9 @@
+Participant ID:     {{ participant_id }}
+Experiment order:   {{ order }}
+Setup:              {{ setup }}
+Time:               {{ now }}
+Click time (unix):  {{ nowunix }}
+
+# CLICK {{ setup }} {{ nowunix }}
+
+

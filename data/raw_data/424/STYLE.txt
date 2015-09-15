@@ -1,0 +1,20 @@
+Participant ID:     424
+Experiment order:   231
+Setup:              STYLE
+Start:              2015-05-25 10:47:43
+End:                2015-05-25 11:22:06.376023
+Total time (s):     2063.0
+Start time (unix):  1432565263.0
+End time (unix):    1432567326.376032
+
+Translation:
+
+
+
+El campo de investigación de IA fue fundado en una conferencia en el campus de la Universidad de Dartmouth en 1956.
+
+En 1973, los Gobiernos de Estados Unidos y Reino Unido dejaron de financiar investigaciones de inteligencia artificial sin dirigir. 
+
+Siete años más tarde, una visionaria iniciativa del Gobierno japonés inspiró a Gobiernos e industria a financiar IA con billones de dólares. Pero a finales de la década de los 80, los inversores volvieron a desilusionarse y retiraron las financiaciones de nuevo.
+
+Este ciclo de éxito y fracaso, de "inviernos" y veranos IA sigue acechando el campo.

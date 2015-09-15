@@ -1,0 +1,20 @@
+Participant ID:     427
+Experiment order:   123
+Setup:              SCRATCH
+Start:              2015-07-13 11:04:22
+End:                2015-07-13 11:20:16.946262
+Total time (s):     955.0
+Start time (unix):  1436799862.0
+End time (unix):    1436800816.9462852
+
+Translation:
+
+
+
+El campo de Investigación Inteligencia Artificial (IA, por sus siglas en inglés) se creó en una conferencia en el campus de la universidad de Dartmouth en el verano de 1956. 
+
+En 1973, el gobierno de Estados Unidos y el de Reino Unido dejaron de financiar la investigación indirecta destinada a la inteligencia artificial. 
+
+Siete años más tarde, una iniciativa visionaria por parte del gobierno japonés inspiró a otros gobiernos e industrias a dotar la AI con mil millones de dólares, pero hacia finales de los años 80 los inversores se desilusionaron y dejaron de financiarla de nuevo. 
+
+Este ciclo de auge y depresión, de veranos e inviernos en la AI, sigue atentando este ámbito científico.  
