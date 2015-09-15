@@ -1,0 +1,3 @@
+[submodule "StyleCheck"]
+	path = StyleCheck
+	url = https://github.com/Deseaus/StyleCheck
