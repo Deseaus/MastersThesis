@@ -10,4 +10,4 @@ This thesis identifies shortcomings with how Computer-Assisted Translation (CAT)
 * `results/` contains the result data and Jupyter notebooks where it is analysed.
 * `paper/` contains the Latex source for the thesis.
 * `server/` contains the code for the web app whee the experiments were carried out.
-
+* `StyleCheck/` contains the GF grammar for StyleCheck.
